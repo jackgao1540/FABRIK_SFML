@@ -1,5 +1,6 @@
-# League of Legends Dodge Simulator
-
-I created this project using C++ and SFML, as a starter project to get me more familiar with the library. The game features many enemy projectiles that you have to dodge, enemies that you must shoot, the ability to flash as well as stop in place, score tracking and resetting weapon cooldowns upon enemy kills. Although the graphics are crude, it does serve very well as a practice tool for aiming and movement that emulates the gameplay in LoL, and it is comparable to the experience on loldodgegame.
-
 # FABRIK_SFML
+This project uses the FABRIK algorithm and the SFML C++ library to allow the user to:
+- Dynamically ADD (left-click) and REMOVE (press 'D') joints to/from an arm segment, automatically calculating limb lengths
+- Randomly moves arm when no target is set
+- Allow for the setting of a target, which the arm will immediately attempt to position itself into reaching
+- Robustly recalculating optimal arm angles whenever joints are added/deleted
